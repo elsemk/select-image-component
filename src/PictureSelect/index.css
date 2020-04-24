@@ -1,0 +1,25 @@
+.imageWrap{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.imgItem{
+    position: relative;
+    width: 30%;
+}
+.imgItem >img{
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.imgItem .imgName{
+    text-align: center;
+}
+.itemSelect{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    overflow: hidden;
+}
